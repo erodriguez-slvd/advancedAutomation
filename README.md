@@ -12,24 +12,24 @@
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#implementation">Implementation Details</a></li>
-    <li><a href="#useful documentation">Useful Documentation</a></li>
+    <li><a href="#implementation-details">Implementation Details</a></li>
+    <li><a href="#useful-documentation">Useful Documentation</a></li>
   </ol>
 
 ## About The Project
 The project focuses on the implementation of IRetryAnalyzer interface on primitive tests which fail on purpose.
 
-### Built With
+## Built With
 * Programming Language: Java
 * Frameworks: Selenium Web Driver
 * Reporting Tools: Zebrunner
 
-### Prerequisites
+## Prerequisites
 - [ ] Install Java +11
 - [ ] Download chromedriver and selenium server standalone
 - [ ] Install Jenkins
 
-### Installation
+## Installation
 - [ ] Download chromedriver for your Chrome browser version, save it in Downloads.
 - [ ] Download selenium-server-standalone-3.141.59.jar, save it in Downloads.
 - [ ] Clone the repo.
