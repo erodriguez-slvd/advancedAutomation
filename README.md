@@ -43,8 +43,18 @@ The project focuses on the implementation of IRetryAnalyzer interface on primiti
 ## Implementation details
 ### Study case: IRetryAnalyzer
 - Every time tests fail in a suite, TestNG creates a file called testng-failed.xml in the output directory. This XML file contains the necessary information to rerun only these methods that failed, allowing you to quickly reproduce the failures without having to run the entirety of your tests. Sometimes, you might want TestNG to automatically retry a test whenever it fails. In those situations, you can use a retry analyzer.
-1. Create a class and build an implementation of the interface org.testng.IRetryAnalyzer
+- Add testng dependency to pom file (check the scope):
 ```
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
+            <scope>compile</scope>
+        </dependency>
+```
+1. Create a class and build an implementation of the interface org.testng.IRetryAnalyzer
+
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
  
