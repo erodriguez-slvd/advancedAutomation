@@ -54,7 +54,7 @@ The project focuses on the implementation of IRetryAnalyzer interface on primiti
         </dependency>
 ```
 1. Create a class and build an implementation of the interface org.testng.IRetryAnalyzer
-
+```
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
  
